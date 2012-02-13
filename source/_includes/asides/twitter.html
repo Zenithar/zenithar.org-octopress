@@ -1,0 +1,19 @@
+{% if site.twitter_user %}
+<section>
+  <h1>Derniers Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Chargement en cours...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("{{site.twitter_user}}", {{site.twitter_tweet_count}}, {{site.twitter_show_replies}});
+    });
+  </script>
+  <script src="{{ root_url }}/javascripts/twitter.js" type="text/javascript"> </script>
+  {% if site.twitter_follow_button %}
+    <a href="http://twitter.com/{{ site.twitter_user }}" class="twitter-follow-button" data-show-count="{{ site.twitter_show_follower_count }}">Suivre @{{ site.twitter_user }}</a>
+  {% else %}
+    <p>Suivre <a href="http://twitter.com/{{site.twitter_user}}">@{{ site.twitter_user }}</a></p>
+  {% endif %}
+</section>
+{% endif %}
