@@ -1,10 +1,12 @@
 require 'bundler/setup'
 require 'sinatra/base'
+require 'sinatra/r18n'
 
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base  
+  register Sinatra::R18n
 
   get(/.+/) do
     send_sinatra_file(request.path) {404}
