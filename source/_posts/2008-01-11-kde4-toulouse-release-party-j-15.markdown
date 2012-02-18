@@ -15,7 +15,7 @@ tags:
 - Toulibre
 ---
 
-[![affiche_kde4.jpg](http://www.zenithar.org/wp-content/uploads/affiche_kde4.jpg)](http://www.zenithar.org/wp-content/uploads/affiche_kde4.jpg)
+[![affiche_kde4.jpg](http://static.zenithar.org/wp-content/uploads/affiche_kde4.jpg)](http://static.zenithar.org/wp-content/uploads/affiche_kde4.jpg)
 
 
 

@@ -62,7 +62,7 @@ Concernant le hot-linking, vol des fichiers depuis l'extérieur il est possible 
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} !^$
 RewriteCond %{HTTP_REFERER} !^http://(www.)?zenithar.org(/)?.*$ [NC]
-RewriteRule .*.(gif|png|jpg|jpeg|pdf|doc|wav|bmp|avi|mpg|mpeg|mp3|zip|rar)$ http://www.zenithar.org/images/vol.jpeg [R,NC]
+RewriteRule .*.(gif|png|jpg|jpeg|pdf|doc|wav|bmp|avi|mpg|mpeg|mp3|zip|rar)$ http://static.zenithar.org/images/vol.jpeg [R,NC]
 ```
 
 Voila, bon surf !

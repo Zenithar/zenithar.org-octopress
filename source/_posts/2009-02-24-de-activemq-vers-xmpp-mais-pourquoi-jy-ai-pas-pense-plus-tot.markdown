@@ -17,7 +17,7 @@ tags:
 - XMPP
 ---
 
-![xmpp](http://www.zenithar.org/wp-content/uploads/2009/02/xmpp.png)
+![xmpp](http://static.zenithar.org/wp-content/uploads/2009/02/xmpp.png)
 
 Suite à des projets personnels et professionnels, j'ai été confronté à une problématique de communication inter-processus (temps réel ou pas !). Ces agents devaient effectuer un traitement bien spécifique sur l'information qui transitait sur le bus de distribution du message.
 

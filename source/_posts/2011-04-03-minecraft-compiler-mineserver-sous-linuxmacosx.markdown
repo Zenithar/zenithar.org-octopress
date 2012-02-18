@@ -30,7 +30,7 @@ Puis tout recompiler :
 
 - libnoise
 ```
-$ wget http://www.zenithar.org/wp-content/uploads/2011/04/CMakeLists.txt
+$ wget http://static.zenithar.org/wp-content/uploads/2011/04/CMakeLists.txt
 $ vi CMakeLists.txt # Ajouter les lignes précédentes.
 $ mkdir Build 
 $ cd Build

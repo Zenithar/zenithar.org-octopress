@@ -20,4 +20,4 @@ Voila ça c'est fait ! Ouf une tâche en moins dans mon rtm (remember the milk) 
 
 Promis je mets les transparents demain, dès que je me lève ! Je mettrais aussi les sources du beamer.
 
-[Présentation](http://www.zenithar.org/wp-content/uploads/railsconf.pdf) [(Source LaTeX)](http://www.zenithar.org/wp-content/uploads/railsconftar.bz2)
+[Présentation](http://static.zenithar.org/wp-content/uploads/railsconf.pdf) [(Source LaTeX)](http://static.zenithar.org/wp-content/uploads/railsconftar.bz2)

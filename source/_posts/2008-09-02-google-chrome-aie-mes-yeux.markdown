@@ -21,11 +21,11 @@ Cela fait un bon bout de temps que l'on entends parler du "Google browser", et b
 
 Google possède son propre navigateur web, basé sur le moteur de rendu KHTML (AppleWebKit) (le moteur de Safari mais aussi de Konqueror oh!). Enfin c'est un fork de KHTML, mais les premières lignes de WebKit sont issues de Qt/KDE (merci lars ^^).
 
-[![](http://www.zenithar.org/wp-content/uploads/2008/09/chrome_about-300x245.jpg)](http://www.zenithar.org/wp-content/uploads/2008/09/chrome_about.jpg)
+[![](http://static.zenithar.org/wp-content/uploads/2008/09/chrome_about-300x245.jpg)](http://static.zenithar.org/wp-content/uploads/2008/09/chrome_about.jpg)
 
 Donc pour résumer, il intègre Google Gears, le [nouvau moteur Javascript](http://webkit.org/blog/189/announcing-squirrelfish/) qui compile "à la volée" pour une exécution bcp plus rapide.
 
-[![](http://www.zenithar.org/wp-content/uploads/2008/09/chrome_acceuil-300x215.jpg)](http://www.zenithar.org/wp-content/uploads/2008/09/chrome_acceuil.jpg)[ ](http://www.zenithar.org/wp-content/uploads/2008/09/chrome_website.jpg) [![](http://www.zenithar.org/wp-content/uploads/2008/09/chrome_website-300x215.jpg)](http://www.zenithar.org/wp-content/uploads/2008/09/chrome_website.jpg)
+[![](http://static.zenithar.org/wp-content/uploads/2008/09/chrome_acceuil-300x215.jpg)](http://static.zenithar.org/wp-content/uploads/2008/09/chrome_acceuil.jpg)[ ](http://static.zenithar.org/wp-content/uploads/2008/09/chrome_website.jpg) [![](http://static.zenithar.org/wp-content/uploads/2008/09/chrome_website-300x215.jpg)](http://static.zenithar.org/wp-content/uploads/2008/09/chrome_website.jpg)
 
 A vous de faire votre opinion !
 En attendant je cherche le dépôt de source ^^

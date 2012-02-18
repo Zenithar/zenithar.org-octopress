@@ -17,8 +17,8 @@ tags:
 ---
 
   [
-    ![Embrasement de Carcassonne](http://www.zenithar.org/wp-content/uploads/hr01.jpg)
-  ](http://www.zenithar.org/wp-content/uploads/hr01.jpg)
+    ![Embrasement de Carcassonne](http://static.zenithar.org/wp-content/uploads/hr01.jpg)
+  ](http://static.zenithar.org/wp-content/uploads/hr01.jpg)
 
 Direction Carcassone en ce jour de fête nationale pour voir l'embrasement de la cité, et le feu d'artifice tiré chaque année. Je ne l'ai jamais vu !
 

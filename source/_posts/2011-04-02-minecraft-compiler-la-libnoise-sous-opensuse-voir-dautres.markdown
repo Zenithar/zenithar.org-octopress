@@ -20,6 +20,6 @@ Je suis en train de rechercher un serveur [MineCraft](http://www.minecraft.net/)
 
 Quand est-ce que les gens arrêterons d'utiliser make / autotools pour leur build ... surtout quand on fait du multiplateforme !
 
-[LibNoise CMakeLists](http://www.zenithar.org/wp-content/uploads/2011/04/CMakeLists.txt)
+[LibNoise CMakeLists](http://static.zenithar.org/wp-content/uploads/2011/04/CMakeLists.txt)
 
 Bon courage pour la suite.

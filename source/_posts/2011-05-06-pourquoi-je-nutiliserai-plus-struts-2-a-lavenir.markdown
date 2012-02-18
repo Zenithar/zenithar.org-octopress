@@ -14,7 +14,7 @@ tags:
 - Struts2
 ---
 
-[![The cake is a lie !](http://www.zenithar.org/wp-content/uploads/2011/05/images.jpeg)](http://www.zenithar.org/wp-content/uploads/2011/05/images.jpeg)
+[![The cake is a lie !](http://static.zenithar.org/wp-content/uploads/2011/05/images.jpeg)](http://static.zenithar.org/wp-content/uploads/2011/05/images.jpeg)
 Voila ça fait 2 ans que je l'utilise et que je cherche à le mettre à la porte !
 Toi développeur, je te déconseille fortement ce framework Web dit MVC ... Parce que c'est un mensonge . Surtout si comme moi tu viens du monde [RoR](http://rubyonrails.org/) / [Node.JS](http://nodejs.org/), oublies-le ! Pauvre fou !
 

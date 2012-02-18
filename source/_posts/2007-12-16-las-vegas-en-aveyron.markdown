@@ -14,6 +14,6 @@ tags:
 - Salmanac
 ---
 
-![Salamanac](http://www.zenithar.org/wp-content/uploads/photo0055.jpg)
+![Salamanac](http://static.zenithar.org/wp-content/uploads/photo0055.jpg)
 
 Voila ce que j'appelle une maison décorée ^^ C'est à Salmanac à côté de Millau (Aveyron).

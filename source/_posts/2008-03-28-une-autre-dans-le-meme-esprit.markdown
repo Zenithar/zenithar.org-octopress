@@ -12,7 +12,7 @@ tags:
 - G33k
 ---
 
-![WTF - Code Quality](http://www.zenithar.org/wp-content/uploads/wtfm.jpg)
+![WTF - Code Quality](http://static.zenithar.org/wp-content/uploads/wtfm.jpg)
 
 
 Je suis en pleine période : analyse statique, complexité cyclomatique, etc ... .

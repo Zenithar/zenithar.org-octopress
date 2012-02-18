@@ -18,7 +18,7 @@ tags:
 
 Derrière ce titre au combien évocateur se cache biensur l'ogre et le barbare du [donjon de naheulbeuk](http://www.penofchaos.com/warham/donjon.htm). Alors maintenant pourquoi citer ces oeuvres ?
 
-[![](http://www.zenithar.org/wp-content/uploads/2008/08/brute.png)](http://www.zenithar.org/wp-content/uploads/2008/08/brute.png)
+[![](http://static.zenithar.org/wp-content/uploads/2008/08/brute.png)](http://static.zenithar.org/wp-content/uploads/2008/08/brute.png)
 
 Pour appeler un jeu en ligne fait par Motion Twin : Kado kado, .... véritable usine à jeu en flash, ils utilisent le framework [Haxe](http://haxe.org/) permettant de faire rapidement des applications client / serveur en flash / javascript, ...
 

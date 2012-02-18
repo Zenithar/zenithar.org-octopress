@@ -30,7 +30,7 @@ Je vous les conseille grandement.
 
 Pour l'Age de pierre :
 
-[![](http://www.zenithar.org/wp-content/uploads/2008/12/l_age_de_pierre_zoomplateau_110x110.jpg)](http://www.zenithar.org/wp-content/uploads/2008/12/l_age_de_pierre_zoomplateau_110x110.jpg)
+[![](http://static.zenithar.org/wp-content/uploads/2008/12/l_age_de_pierre_zoomplateau_110x110.jpg)](http://static.zenithar.org/wp-content/uploads/2008/12/l_age_de_pierre_zoomplateau_110x110.jpg)
 
 _Votre but : acquérir le maximum de points de victoire._
 
@@ -44,7 +44,7 @@ Devez-vous vous reproduire ? Mais cela augmentera les bouches à nourrir ? Préf
 
 Et pour Wasabi :
 
-[![](http://www.zenithar.org/wp-content/uploads/2008/12/wazabi_materiel.jpg)](http://www.zenithar.org/wp-content/uploads/2008/12/wazabi_materiel.jpg)
+[![](http://static.zenithar.org/wp-content/uploads/2008/12/wazabi_materiel.jpg)](http://static.zenithar.org/wp-content/uploads/2008/12/wazabi_materiel.jpg)
 
 But du jeu : Etre le premier joueur à ne plus avoir de dé.
 

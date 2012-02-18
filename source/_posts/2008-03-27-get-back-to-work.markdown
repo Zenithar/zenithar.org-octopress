@@ -11,7 +11,7 @@ tags:
 - G33k
 ---
 
-[![Compiling](http://www.zenithar.org/wp-content/uploads/compiling.png)](http://www.zenithar.org/wp-content/uploads/compiling.png)
+[![Compiling](http://static.zenithar.org/wp-content/uploads/compiling.png)](http://static.zenithar.org/wp-content/uploads/compiling.png)
 
 Combien de fois on l'a dit ^^
 - "Viens bosser !"

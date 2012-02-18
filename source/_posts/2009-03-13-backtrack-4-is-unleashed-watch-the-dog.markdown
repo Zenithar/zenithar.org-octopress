@@ -18,7 +18,7 @@ tags:
 - Slax
 ---
 
-Halte aux [paraskevidékatriaphobe](http://www.zenithar.org/2007/04/13/etes-vous-paraskevidekatriaphobe/) ! Savez vous que BackTrack 4 est sortie ? Sinon je vous l'annonce !
+Halte aux [paraskevidékatriaphobe](http://static.zenithar.org/2007/04/13/etes-vous-paraskevidekatriaphobe/) ! Savez vous que BackTrack 4 est sortie ? Sinon je vous l'annonce !
 
 En plus du changement de version, il y a aussi un changement de distribution de base, avant BackTrack était une variante gonflée (comme vahiné) de [Slax](http://www.slax.org/), qui était une version modulaire et portable (dans le sens USB) de [Slackware](http://www.slackware.com/).
 
