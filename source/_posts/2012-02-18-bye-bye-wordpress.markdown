@@ -15,7 +15,7 @@ Au revoir, Wordpress, et dîtes bonjour à [Octopress](http://octopress.org/), j
 
 J'ai choisi une migration vers une solution moins fournie mais correspondant plus à mes besoins, tout en allégeant le serveur car le blog est entièrement statique.
 
-J'ai mis en tout est pour tout, 4 jours a temps plein pour migrer :
+J'ai mis en tout et pour tout, 4 jours a temps plein pour migrer :
 
   *   Revue des posts un par un, pour corriger les problèmes liés à la syntaxe différente
   *   Correction du plugin d'import [Exitwp](https://github.com/thomasf/exitwp), pour pouvoir générer les fichiers au format Markdown.
