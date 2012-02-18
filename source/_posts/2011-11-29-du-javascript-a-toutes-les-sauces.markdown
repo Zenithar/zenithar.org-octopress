@@ -18,7 +18,7 @@ Et qu'il y trouve ça place au rang des PHP, Ruby, voir même Java;
 
 Les technologies dérivées permettent de mettre à plat un serveur Apache tant au niveau performance, qu'au niveau consommation mémoire. Qu'il peut être utilisé comme interface de communication avec une base de données type NoSQL comme [MongoDB](http://www.mongodb.org/), [CouchDB](http://couchdb.apache.org/). 
 
-Ce language, utilisé jusqu'à présent pour ajouter un caractère dynamique au HTML, peut être utilisé pour divers activités, et remets au gout du jour une manière de programmer : la programmation asynchrone. 
+Ce langage, utilisé jusqu'à présent pour ajouter un caractère dynamique au HTML, peut être utilisé pour divers activités, et remets au gout du jour une manière de programmer : la programmation asynchrone. 
 
 A tel point que certaines personnes se posent la question simple : [Le JavaScript va-t-il détroner les autres langages Web ?](http://fr.techcrunch.com/2011/04/29/le-javascript-va-t-il-detroner-les-autres-langages-web/)
 
@@ -26,20 +26,10 @@ Il y a 20 ans (et oui déjà), les infrastructures "Web 0.1" utilisaient un rend
 
 Puis sont arrivés les outils de développements "structurés" JavaScript :
 
-
-
-	
   * Framework : [Backbone.JS](http://documentcloud.github.com/backbone/) (MVC), [Knockout.JS](http://knockoutjs.com/) (MVVM)
-
-	
   * Interpréteur: [Node.JS](http://nodejs.org/)
-
-	
   * Gestion de dépendances : [Require.JS](http://requirejs.org/), [Lab.JS](http://labjs.com/)
-
-	
   * Langage: [CoffeeScript](http://jashkenas.github.com/coffee-script/) (Aaaaahhhh)
-
 
 Permettant de construire de vraies applications JavaScripts, avec des notions de modèles, de vues, de contrôleurs, de templates. Templates permettant ainsi de mettre en forme d'informations issues du serveur de manière brute (JSON / XML mais surtout JSON !) via la consultation de service Web REST.
 

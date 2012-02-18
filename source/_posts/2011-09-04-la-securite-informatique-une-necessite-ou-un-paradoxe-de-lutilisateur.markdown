@@ -28,15 +28,8 @@ confiance / méconnaissance utilise des médias non sécurisés pour échanger d
 
 Mon expérience me dit qu'en fait c'est souvent les deux cas : 
 
-
-
-	
   * l'entreprise qui ne consacre pas le temps nécessaire à la sécurité du SI, 
-
-	
   * mais aussi aux employés, qui ne sont pas sensibilisés / formés. 
-
-
 
 Ne serait-ce qu'utiliser un simple transport chiffré (SSL/TLS), pour éviter (ralentir) l'interception d'information.
 Souvent la même réponse, on verra plus tard ! Mais quand l'évènement sécurité arrive il est trop tard ! C'est des mesures préventives, pas des mesures a posteriori !
@@ -50,30 +43,15 @@ Pour se recentrer sur le sujet, l'utilisateur final, pas un espion, doit connaî
 
 La négligence d'un seul des protagonistes risquent de rendre public des informations privées, pas forcément exploitable, mais qui pourraient servir à élaborer un scénario d'approche, dans le but d'en obtenir d'autres plus précises (produits, marchés, clients, etc.)
 
-
-	
   * Vous êtes responsable d'un SI, pensez à cette phrase : La sécurité est un métier comme un autre, pas forcément le vôtre !
-
-	
   * Vous êtes utilisateur du SI : Vous êtes la faiblesse du système, pensez-y !
-
-
 
 Réferences :
 
-	
   * [Guide Sécurité informatique](http://www.awt.be/web/sec/index.aspx?page=sec,fr,100,000,000)
-
-	
   * [Sans.org](http://www.sans.org/)
-
-	
   * [Cert.org](http://www.cert.org/)
-
-	
   * [Agence nationale de la sécurité des systèmes d’information](http://www.ssi.gouv.fr/)
-
-
 
 
 
