@@ -1,0 +1,28 @@
+---
+layout: page
+title: Tag&#58; Python
+footer: false
+---
+
+<div id="blog-archives" class="category">
+<h2>2011</h2>
+
+<article>
+<h1><a href="/2011/05/21/zeromq-ca-roxe-du-poney/index.html">ZeroMQ, ça roxe du poney !</a></h1>
+<time datetime="2011-05-21T00:00:00-06:00" pubdate><span class='month'>May</span> <span class='day'>21</span> <span class='year'>2011</span></time>
+<footer>
+<span class="categories">posted in 
+<a href='/categories/développement/'>Développement</a>, <a href='/categories/logiciels/'>Logiciels</a></span>
+</footer>
+</article>
+<h2>2005</h2>
+
+<article>
+<h1><a href="/2005/08/11/plus-de-python-dans-herms/index.html">Plus de python dans HermS</a></h1>
+<time datetime="2005-08-11T00:00:00-06:00" pubdate><span class='month'>Aug</span> <span class='day'>11</span> <span class='year'>2005</span></time>
+<footer>
+<span class="categories">posted in 
+<a href='/categories/logiciels/'>Logiciels</a></span>
+</footer>
+</article>
+</div>
