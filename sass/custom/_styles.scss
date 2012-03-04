@@ -20,3 +20,11 @@ div#tag_list {
     display: inline;
 }
 
+table.inpost {
+  font-size:inherit;
+  font:100%;
+  margin:1em;
+}
+
+table.inpost th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table.inpost td{border-bottom:1px solid #ddd;padding:.2em 1em;}
