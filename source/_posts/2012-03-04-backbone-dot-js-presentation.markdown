@@ -74,19 +74,29 @@ var PersonDetailsView = Backbone.View.extend({
 	// Ici on utilise un selecteur CSS3, pour indiquer le point d'insertion 
 	// de la vue dans l'arbre DOM. (On recherche un élément dont l'id est "details")
 	el: $("#details"),
+  // Ici on compile le template, cela utilise la fonction template d'underscore.js
+  template: _.template("
+    Hello <%= firstname %> <%= lastname %> ! 
+  "),
 	render: function() {
-		this.el.append(_.template(this.model.toJSON()));
+		this.el.append(this.template(this.model.toJSON()));
 	}	
 });
 ```
 
-Il est important de retenir que les vues sont du codes Javascript qui va modifier la page courante (arbre DOM). Il est de ce fait très facile de contruire des vues qui sont complètement décorréllées de la page ou elle va être "rendue" (affichée).
+Il est important de retenir que les vues sont du codes Javascript qui va modifier la page courante (arbre DOM). Il est de ce fait très facile de contruire des vues qui sont complètement décorréllées de la page ou elle va être "rendue" (affichée). J'utilise la fonction de [template](http://documentcloud.github.com/underscore/#template) Underscore.js.
+
+Il est tout à fait possible d'utiliser d'autres moteurs de template, par exemple :
+  
+  * [Mustache.js](http://mustache.github.com/)
+  * [Handlebar.js](http://handlebarsjs.com/)
+  * et bien d'autres ...
 
 ### Les routeurs
 
 Les routeurs sont utilisés pour diriger les appels provenant de l'extérieur, vers le bon code Javascript associé à l'url.
 
-En effet, les routeurs utilisent une partie spéciale de l'URL, que l'on nomme le hashtag
+En effet, les routeurs utilisent une partie spéciale de l'URL, que l'on nomme le hashbang
 
 ``` sh
 http://www.zenithar.org/index.html#!/person/toto
