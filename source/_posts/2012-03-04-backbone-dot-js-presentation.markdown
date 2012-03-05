@@ -89,6 +89,7 @@ Il est important de retenir que les vues sont du codes Javascript qui va modifie
 Il est tout à fait possible d'utiliser d'autres moteurs de template, par exemple :
   
   * [Mustache.js](http://mustache.github.com/)
+  * [Hogan.js](http://twitter.github.com/hogan.js/) (qui s'inspire de mustache ... appréciez le jeu de mot ... indice: hulk)
   * [Handlebar.js](http://handlebarsjs.com/)
   * et bien d'autres ...
 
