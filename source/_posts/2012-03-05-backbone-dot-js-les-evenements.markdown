@@ -120,7 +120,7 @@ sidebar.off('change:color');
 
 ### Les collections : [Backbone.Collection](http://documentcloud.github.com/backbone/#Collection)
 
-Par convention, tous les évènements émit d'un modèle peuvent être capturé par la collection.
+Par convention, tous les évènements émis d'un modèle peuvent être capturé par la collection.
 
 ``` javascript Extrait de la documentation Backbone.JS
 var ships = new Backbone.Collection;
