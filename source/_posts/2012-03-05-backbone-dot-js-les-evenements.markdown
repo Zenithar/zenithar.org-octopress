@@ -316,7 +316,7 @@ Mon prochain article parlera de l'utilisation de CoffeeScript avec Backbone.JS, 
 
 Bonne soirée à toutes et à tous.
 
-PS : Un grand merci à [jekyll](http://jekyllrb.com/), [octopress](http://octopress.org/) et Git, qui rende l'écriture des articles sur mon blog vraiment agréable.
+PS : Un grand merci à [jekyll](http://jekyllrb.com/), [octopress](http://octopress.org/) et Git, qui rendent l'écriture des articles sur mon blog vraiment agréable.
 
 
 
