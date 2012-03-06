@@ -306,7 +306,7 @@ medicationList.each(function(med){
 
 Cette dernière partie est un peu brutale, je sais, mais c'est pour finir en beauté. Comme je l'ai déjà dit, le principal avantage de Backbone.JS, c'est de fournir à l'utilisateur un moyen de bien développer, par la structuration du code, les concepts de séparation de responsabilité, etc.
 
-Cela permet aussi d'utiliser des patrons de conception déjà éprouvé dans le monde de l'informatique au sein du navigateur (et aussi du serveur) avec JavaScript.
+Cela permet aussi d'utiliser des patrons de conception déjà éprouvés dans le monde de l'informatique au sein du navigateur (et aussi du serveur) avec JavaScript.
 
 ## Conclusion
 
