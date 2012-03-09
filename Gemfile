@@ -11,6 +11,7 @@ group :development do
   gem 'compass', '>= 0.11'
   gem 'rubypants'
   gem 'rb-fsevent'
+  gem 'gsl', :git => 'git://github.com/30robots/rb-gsl.git'
   gem 'stringex'
   gem 'liquid', '2.2.2'
 end
