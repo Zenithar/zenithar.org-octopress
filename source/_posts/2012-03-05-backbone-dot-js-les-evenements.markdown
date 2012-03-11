@@ -26,7 +26,7 @@ Le principe est simple :
 
 > On sait quand on appelle la fonction, mais on ne sait pas quand elle sera traitée !
 
-De ce fait, cela induit des modes de programmation qui ne sont pas forcément habituel :
+De ce fait, cela induit des modes de programmation qui ne sont pas forcément habituels :
 
 Si on prend l'exemple suivant (Node.js) :
 
@@ -50,7 +50,7 @@ after readFile
 file read: 234 bytes
 ```
 
-On peut remarque une particularité, qui est que la fonction d'appel à la lecture du fichier "fichier.txt", prends en paramètre une fonction dîtes "anonyme" (sans nom).
+On peut remarquer une particularité, la fonction d'appel à la lecture du fichier "fichier.txt", prends en paramètre une fonction dîtes "anonyme" (sans nom).
 
 Cette fonction sera exécutée comme un "callback", lors de la lecture du fichier. 
 
@@ -58,7 +58,7 @@ Il est très important de comprendre ce mécanisme pour la suite de l'article.
 
 ## Evènements Backbone.JS
 
-Les évènements Backbone.JS sont aussi traités de manière asynchrone, on enregistre des "handlers", sur des évènements qui peuvent venir de n'importe où, et surtout n'importe quand. 
+Les évènements Backbone.JS sont aussi traités de manière asynchrone, on enregistre des "handlers", sur des évènements qui peuvent intervenir n'importe quand. 
 
 Une bonne application Backbone.JS est une application complètement décorellée et évènementielle. Les composants sont implémentés, et reliés par des messages (event). 
 
