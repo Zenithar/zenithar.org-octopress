@@ -18,8 +18,6 @@ J'ai recherché un moyen de modifier la sortie du code généré par le compilat
 
 Pour utiliser cette "extension", il suffit d'invoquer la commande de la sorte :
 
-``` sh
-#> coffee -bp -r ./ext.coffee file.coffee
-```
+> coffee -bp -r ./ext.coffee file.coffee
 
 Pour faire fonctionner, cette extension pour le langage Iced CoffeeScript, il suffit de remplacer l'import "[coffee-script](http://coffeescript.org/)" par "[iced-coffee-script](http://maxtaco.github.com/coffee-script/)".
