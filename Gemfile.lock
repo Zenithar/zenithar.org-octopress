@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/30robots/rb-gsl.git
-  revision: ba998baac6956fc139103a69b1508fddc2b06a88
-  specs:
-    gsl (1.14.7)
-      narray (>= 0.5.9)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -35,7 +28,6 @@ GEM
     liquid (2.3.0)
     maruku (0.6.0)
       syntax (>= 1.0.0)
-    narray (0.6.0.1)
     posix-spawn (0.3.6)
     pygments.rb (0.2.13)
       rubypython (~> 0.5.3)
