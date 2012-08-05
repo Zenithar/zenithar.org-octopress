@@ -5,7 +5,6 @@ require 'sinatra/base'
 $root = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base  
-  register Sinatra::R18n
 
   get(/.+/) do
     send_sinatra_file(request.path) {404}
