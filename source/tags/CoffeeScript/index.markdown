@@ -8,6 +8,15 @@ footer: false
 <h2>2012</h2>
 
 <article>
+<h1><a href="/2012/08/06/8-mois-avec-backbone-dot-js-et-ca-dure/index.html">8 mois avec Backbone.js et ça dure !</a></h1>
+<time datetime="2012-08-06T00:00:00-06:00" pubdate><span class='month'>Aug</span> <span class='day'>06</span> <span class='year'>2012</span></time>
+<footer>
+<span class="categories">posted in 
+<a href='/categories/logiciels/'>Logiciels</a></span>
+</footer>
+</article>
+
+<article>
 <h1><a href="/2012/08/05/verifier-un-rio/index.html">Vérifier un RIO</a></h1>
 <time datetime="2012-08-05T00:00:00-06:00" pubdate><span class='month'>Aug</span> <span class='day'>05</span> <span class='year'>2012</span></time>
 <footer>
