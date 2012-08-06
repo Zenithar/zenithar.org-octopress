@@ -18,7 +18,7 @@ Qui plus est, le serveur vocal était de mauvaise qualité (bim), de ce fait je 
 
 Donc voila, j'ai récupéré le plus d'informations nécessaires possible, mon RIO était incompréhensible, je n'arrivais pas à comprendre la clé de RIO, alors je l'ai calculée, tout en prenant en compte la prononciation approximative de l'opérateur (re-bim !).
 
-Voivi le module CoffeeScript que j'ai codé pour calculer la clé.
+Voici le module CoffeeScript que j'ai codé pour calculer la clé.
 
 {% gist 1597257 %}
 
