@@ -10,11 +10,12 @@ tags:
  - CoffeeScript
 
 ---
+
 Cela fait quelques temps déjà que j'utilise Backbone.JS and Friends, et bon je vais essayer de rester objectif sur le retour d'expérience que je compte développer.
 
 Tout d'abord, ça roxe du poney (avis tout à fait objectif !) par rapport au développement classique d'IHM web (struts, dojo, etc.). Ceux qui me lisent et/ou me connaissent (en vrai) savent tout mon amour que je porte au développement Web (hum), qui plus est développement web avec des technologies compatibles IE2 (ActiveX sur Serveur jBoss par exemple) … voir IE tout court … hum hum :-)
 
-Personnellement, ce que je n'aime pas dans le développement Web, c'est le Web lui même, qui ressemblait plus au un ensemble bricolé qui tombait en marche sur tous les navigateurs du marché (sauf un, devinez :-) ).
+Personnellement, ce que je n'aime pas dans le développement Web, c'est le Web lui même, qui ressemble plus à un ensemble bricolé qui tombait en marche sur tous les navigateurs du marché (sauf un, devinez :-) ).
 
 Beaucoup d'application dites Web 2.0, ne le sont pas ! Notamment, on croit que faire un include de plusieurs librairies JavaScript, permet comme par magie de faire du Web 2.0. Mais j'ai eu l'occasion de découvrir toutes la puissance des "vraies" applications JavaScript via Backbone.js. 
 
@@ -22,7 +23,7 @@ Beaucoup d'application dites Web 2.0, ne le sont pas ! Notamment, on croit que f
 
 Comment suis-je arrivé à connaitre Backbone.js, et bien à cause de [Node.js](http://nodejs.org/) ! Vous ne connaissez pas ? C'est selon moi, celui qui a accélérer les choses, RoR/Django ont essuyés les plâtres, mais [Node.js](http://nodejs.org/) a tout refait mais en mieux.
 
-Le problème de ces technologies, c'est qu'elles ne sont pas guidées (est-ce vraiment un inconvénients ?), et j'ai du prendre en bloc tout ce qui est venu avec c-à-d :
+Le problème de ces technologies, c'est qu'elles ne sont pas guidées (est-ce vraiment un inconvénient ?), et j'ai du prendre en bloc tout ce qui est venu avec c-à-d :
 
   * JavaScript, que je ne connaissais pas si puissant (comme bcp de monde d'ailleurs)
   * [jQuery](http://jquery.com/)
@@ -53,7 +54,7 @@ Nous avons mis en évidence aussi la présence de fonctionnel métier présent d
 
 Le fait d'exporter une partie du fonctionnel coté client (navigateur) a impliqué beaucoup de travail annexe, notamment tout ce qui concerne le domaine "statique" applicatif tels que les typologies, les paramètres.
 
-L'objectif majeur était d'éliminer les interactions serveurs "inutiles", d'où le besoin d'exporter les logiques métiers coté client, pour présenter une informations pré-machée au serveur, sans pour autant faire confiance, d'où le doublon de code.
+L'objectif majeur était d'éliminer les interactions serveurs "inutiles", d'où le besoin d'exporter les logiques métiers coté client, pour présenter une information pré-machée au serveur, sans pour autant faire confiance, d'où le doublon de code.
 
 ## Sécurité
 
@@ -61,12 +62,12 @@ L'export fonctionnel apporte des problématiques de gestion de la Sécurité (Qu
 
 En JavaScript, tout est modifiable par l'utilisateur, seule la norme ECMASCRIPT 5 (ça aussi découvert pendant l'apprentissage !) apporte des mécanismes de scellements via `Object.seal`, ou de vérrouillage via `Object.freeze`. Qui plus est beaucoup de développeurs n'utilisent pas les namespaces, et le module pattern pour protéger leurs codes privés. Il devient alors très facile d'écraser un contrôle client, qui n'est pas vérifié coté serveur.
 
-Nous avons mis en place un système de Facades, permettant via un bootstrap applicatif, de récupérer coté client les permissions de l'utilisateur. Les méthodes de la facade sous forme de "can*" exposent les permissions à l'application JavaScript.
-Nous avons repris et adapté de pattern "[Large Scale JavaScript Application](http://addyosmani.com/largescalejavascript/)" d'Addy Osmani à nos besoins.
+Nous avons mis en place un système de facades, permettant via un bootstrap applicatif, de récupérer coté client les permissions de l'utilisateur. Les méthodes de la facade sous forme de "can*" exposent les permissions à l'application JavaScript.
+Nous avons repris et adapté le pattern "[Large Scale JavaScript Application](http://addyosmani.com/largescalejavascript/)" d'Addy Osmani à nos besoins.
 
 ## Gestion des modules
 
-Avec la multiplication des modules JS (CoffeeScript compilé), il a fallut mettre en place un système de gestion de dépendances, chose il faut le dire pas forcément naturelle pour un néophyte du JavaScript, qui a l'habitude du bon vieux `<script src='…'>` dans l'entête.
+Avec la multiplication des modules JS (CoffeeScript compilé), il a fallut mettre en place un système de gestion de dépendances, chose il faut le dire, ce n'est pas necessairement naturel pour un néophyte du JavaScript, qui a l'habitude du bon vieux `<script src='…'>` dans l'entête.
 
 Il a fallut comprendre la différence entre [CommonJS](http://wiki.commonjs.org/) et AMD, pour comprendre que c'est la même chose, en fait [AMD](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) est un gestionnaire [CommonJS](http://wiki.commonjs.org/), mais avec le chargement asynchrone (via réseau par exemple).
 
@@ -112,9 +113,9 @@ Le fait de découper son application cliente en modules fonctionnels testables, 
 
 Autre avantage, l'interactivité ! L'utilisateur veut améliorer son expérience (cette fameuse expérience utilisateur : UX en anglais, dont [les spécialistes fleurissent sur Internet](https://www.google.fr/search?q=CV%20UX) )
 
-Le fait d'utiliser les ressources du client (navigateur) pour générer les pages, les modifier sans le fameux "click" d'IE signifiant un chargement, allé retour serveurs, l'utilisation de techniques de templates clients (Handlebars, et bien d'autres) instrumenté via JSON pour limiter les informations au strict nécessaire, permettent d'améliorer la rapidité et donc la satisfaction de l'utilisateur.
+Le fait d'utiliser les ressources du client (navigateur) pour générer les pages, les modifier sans le fameux "click" d'IE signifiant un chargement, aller-retour serveurs, l'utilisation de techniques de templates clients (Handlebars, et bien d'autres) instrumenté via JSON pour limiter les informations au strict nécessaire, permettent d'améliorer la rapidité et donc la satisfaction de l'utilisateur.
 
-Fini les allés-retours pour cocher une case à cocher, fini les allés-retours pour valider un formulaire, fini les allés-retours pour changer un CSS, le Javascript est la pour ça.
+Fini les aller-retours pour cocher une case à cocher, fini les aller-retours pour valider un formulaire, fini les allés-retours pour changer un CSS, le Javascript est la pour ça.
 
 ## Conception offline
 
@@ -131,7 +132,6 @@ La migration d'une application Web 1.5, vers une application Web 2.5 (2.0 + HTML
 
 L'introduction de "Backbone.js And Friends" dans les projets n'est pas simple du fait de la frilosité des entreprises à investir sur des technologies nouvelles. Choses assez paradoxales puisque ces mêmes entreprises vont investir sur le HTML5, qui je rappelle est une technologie encore en cours de spécification. Pour moi, Backbone.js, *.js sont issues de la génèse de HTML5, et je pense qu'on a pas fini d'en voir.
 
-J'avoue être curieux, et admiratif de toutes ces personnalités émérgentes du HTML5 et dérivés, je pense à [Addy Osmani](http://addyosmani.com/blog/) ([Yeoman](http://yeoman.io/) c'est pour quand ?), [Jeremy Ashkenas](https://github.com/jashkenas/), [John Resig](http://ejohn.org/), et bien d'autres. Et je me pose une question simple utilisez vous vos propres technologies ? ou deviennent elles publiques par manquent de confiance de vos sociétés respectives ? (TROOOOOLLLLLLLLLLL) En tout cas merci !
+J'avoue être curieux, et admiratif de toutes ces personnalités émérgentes du HTML5 et dérivés, je pense à [Addy Osmani](http://addyosmani.com/blog/) ([Yeoman](http://yeoman.io/) c'est pour quand ?), [Jeremy Ashkenas](https://github.com/jashkenas/), [John Resig](http://ejohn.org/), et bien d'autres. Et je me pose une question simple utilisez vous vos propres technologies ? ou deviennent elles publiques par manquent de confiance de vos sociétés respectives ? (TROOOOOLLLLLLLLLLL) 
 
-
-
+En tout cas merci !
