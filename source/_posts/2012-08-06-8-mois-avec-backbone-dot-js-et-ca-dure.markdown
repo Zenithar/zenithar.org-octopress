@@ -21,7 +21,7 @@ Beaucoup d'application dites Web 2.0, ne le sont pas ! Notamment, on croit que f
 
 # Découverte
 
-Comment suis-je arrivé à connaitre Backbone.js, et bien à cause de [Node.js](http://nodejs.org/) ! Vous ne connaissez pas ? C'est selon moi, celui qui a accélérer les choses, RoR/Django ont essuyés les plâtres, mais [Node.js](http://nodejs.org/) a tout refait mais en mieux.
+Comment suis-je arrivé à connaitre Backbone.js, et bien à cause de [Node.js](http://nodejs.org/) ! Vous ne connaissez pas ? C'est, selon moi, celui qui a accéléré les choses, RoR/Django ont essuyés les plâtres, mais [Node.js](http://nodejs.org/) a tout refait mais en mieux.
 
 Le problème de ces technologies, c'est qu'elles ne sont pas guidées (est-ce vraiment un inconvénient ?), et j'ai du prendre en bloc tout ce qui est venu avec c-à-d :
 
