@@ -12,8 +12,5 @@ tags:
 ---
 Voici une petite astuce pour rendre vos Modèles Backbone.js, navigable depuis le modèle si celui-ci fait partie d'une collection.
 
-Par héritage :
 {% gist 3350751 %}
-
-Par mixin :
 
