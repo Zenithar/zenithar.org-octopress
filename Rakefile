@@ -6,7 +6,7 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "zenithar@www.zenithar.org"
 ssh_port       = "22"
-document_root  = "~/vhosts/zenithar.org/hosts/blog/"
+document_root  = "~/vhosts/zenithar.org/hosts/www/"
 rsync_delete   = true
 deploy_default = "rsync"
 
