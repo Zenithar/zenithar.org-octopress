@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "zenithar@www.zenithar.org"
+ssh_user       = "zenithar@direct-connect.zenithar.org"
 ssh_port       = "22"
 document_root  = "~/vhosts/zenithar.org/hosts/www/"
 rsync_delete   = true
