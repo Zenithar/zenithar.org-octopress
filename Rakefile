@@ -8,6 +8,7 @@ ssh_user       = "zenithar@direct-connect.zenithar.org"
 ssh_port       = "22"
 document_root  = "~/vhosts/zenithar.org/hosts/www/"
 rsync_delete   = true
+rsync_args     = ""
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
